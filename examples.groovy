@@ -15,3 +15,7 @@ subprojects {
 hello << {
     println 'As you all know, I cover three quarters of this planet!'
 }
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '1.2'
+}
