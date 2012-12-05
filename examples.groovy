@@ -1,6 +1,6 @@
-//defaultTasks 'hello'
+defaultTasks 'hello'
 
-/*allprojects {
+allprojects {
     task hello << {
         println "Hello, I'm $project.name"
     }
@@ -14,4 +14,4 @@ subprojects {
 
 hello << {
     println 'As you all know, I cover three quarters of this planet!'
-}*/
+}
