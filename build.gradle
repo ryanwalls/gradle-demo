@@ -1,0 +1,6 @@
+task hello << {
+    println "Hello, I'm $project.name"
+}
+
+
+
